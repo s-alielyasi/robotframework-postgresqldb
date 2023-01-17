@@ -35,7 +35,7 @@ setup(
     py_modules=['PostgreSQLDB'],
     install_requires=[
         "robotframework",
-        "psycopg2"
+        "psycopg2-binary"
     ],
     extras_require={
         ':python_version<="2.7"': [
